@@ -19,6 +19,7 @@ DDPG, or Deep Deterministic Policy Gradient, is a reinforcement learning algorit
 * Policy Gradient: DDPG uses the policy gradient method to update the actor network. The gradient is computed with respect to the expected return and is used to adjust the actor's parameters in the direction that increases the expected return.
 * Target Q-value: The target Q-value is used to update the critic network. It is computed using the Bellman equation and is used as a target for the critic's Q-value prediction.
 By combining these elements, DDPG is able to learn a deterministic policy for continuous action spaces.
+
 MADDPG extends DDPG to multi-agents domains.
 
 ### Hyperparameters
