@@ -49,7 +49,7 @@ The critic model: maps state action pairs to value
 
 ### Plot of Rewards
 Plot of rewards can be seen after the environment has been solved.
-Environment solved after 100 episodes.
+Environment solved after 100 episodes with an average score à 2.951 (for a minimum of 0.5 to successfully solve the environment).
 ![plot](https://github.com/ealbenque/deep_RL-p3_tennis/assets/137990986/e1557afc-76a1-40c3-aee9-7d1c1dd29eda)
 
 ### Possible improvements
